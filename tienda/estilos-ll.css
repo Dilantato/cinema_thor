@@ -1,0 +1,762 @@
+
+
+/*--------DIV Login-------*/
+
+
+.Busqueda{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.login{
+    padding: 5px;
+}
+.botonlogin{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 12pt;
+    color: #ffffff;
+    background-color: #7c0707;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+.botonlogin:hover{
+    color: white;
+    background-color: #070b7c;
+  }
+.find{
+    margin-left: 40%;
+    width: 25px;
+    height: 25px;
+    margin-top: 4px;
+}
+/* CODIGO INICIO SESION ANDREW */
+.inicio{
+    background: darkred;
+    margin: 0;
+    position: relative;
+    left: 310px;
+    width: 326px;
+    margin-top: 66px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    color: white;
+    padding: 4px;
+}
+h2{
+    margin: 0;
+}
+.form{
+    background-color: lightgray;
+    width: 326px;
+    text-align: center;
+    position: relative;
+    left: 310px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 4px 4px 4px darkred;
+}
+.usuario, .contraseña{
+    border-radius: 5px;
+}
+.boton{
+    width: 80px;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: darkred;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer; 
+}
+/* CODIGO INICIO SESION ANDREW */
+/*--------DIV Login-------*/
+/*---DIV Logo---*/
+.logoicon{
+    width: 100%;
+     border-radius: 5px;  
+}
+.logo{
+    border-radius: 5px;
+    margin-top: 4px;
+}
+/*---DIV Logo---*/
+/*--------DIV Lista desplegable--------*/
+/*Lista desplegable*/
+
+/*--------DIV Lista desplegable--------*/
+/*--DIV Servicios--*/
+.servicio{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+    grid-template-rows: 1fr;
+    margin-top: 1%;
+}
+.fl1{
+    width: 160px;
+    height: 360px;
+    border-top-left-radius: 5px;
+}
+.fl2{
+    width: 160px;
+    height: 360px;
+}
+.fl3{
+    width: 160px;
+    height: 360px;
+}
+.foodicon{
+    background: white;
+    border-top-right-radius: 5px;
+}
+.foody{
+    margin-top: 13%;
+    
+}
+/*--DIV Servicios--*/
+/*---Banner peliculas---*/
+.bannerpeli{
+    width: 100%;
+    height: 100px;
+    margin-top: 3px; 
+}
+/*---Banner peliculas---*/
+/*###############################   CSS FOOTER ######################## */
+.cinemaFooter{
+    background-color:#7c0707;
+    height: 172px;
+    width: 100%;
+    border-radius: 5px;
+}
+.Footer1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    border-bottom: 2px black solid;
+    text-align: center;
+    margin-top: 6px;
+}
+.links:hover{
+    background: rgba(0,0,0,0.5)
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.Footer2{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 115px;
+    border-bottom: 2px black solid;
+}
+
+.red0, .red1, .red2, .red3{
+    filter: invert(100%);
+    margin-left: 35%;
+}
+.red:hover{
+    filter: invert(50%);
+}
+.Face, .Tuit, .Tube, .Insta{
+    width: 60px;
+    height: 60px;
+    margin-top: 15%;
+}
+.face, .tuit, .tube, .insta{
+    font-size: 15px;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+.©{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding: 8px 0px;
+}
+.Footer3{
+    height: 30px;
+    border-bottom: 2px black solid;
+    
+}
+/*###############################   CSS FOOTER ######################## */
+/*###############################   CSS SLIDER ######################## */
+* {box-sizing:border-box}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  .a_slider{
+      text-decoration: none;
+      color: white;
+      background-color: #7c0707 ;
+      border-radius: 12px;
+      padding: 5px;
+  }
+  .a_slider:hover{
+      background-color: #070b7c;
+      color: white;
+      font-weight: bolder;
+  }
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #070b7c;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #676fda;
+  }
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+/*###############################   CSS SLIDER ######################## */
+/*###############################   COOKIES   ######################## */
+.h4_cookie{
+    padding-top: -50px;
+    text-align: center;
+}
+.PCookies{
+    font-size: 15px;
+    padding: 0 10px;
+}
+#CookiesAceptar{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    background-color:#071E55;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+#CookiesPrincipal{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+    height: 200px;
+    z-index: 2;
+    color: white;
+    background-color: rgba(0,0,0,0.9);
+    text-align: justify;
+    border-radius: 10px;
+    padding: 0 10px;
+    border: 2px solid white;
+}
+/*###############################   COOKIES  ######################## */
+/*###############################   PUBLICIDAD  ######################## */
+#Pub1{
+    position: fixed;
+    top: 20%;
+    left: 8px;
+    
+    z-index: 2;
+}
+#Pub2{
+    position: fixed;
+    right: 10px;
+    top: 30%;
+    z-index: 2;
+}
+.pub{
+    height: 40%;
+    width: 150px;
+}
+.gafasbanner{
+    width: 100%;
+}
+/*###############################   PUBLICIDAD  ######################## */
+/*---------- CODIGO INICIO SESION ANDREW --------------*/
+.inicio{
+    background: darkred;
+    margin: 0;
+    position: relative;
+    left: 310px;
+    width: 326px;
+    margin-top: 66px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    color: white;
+    padding: 4px;
+    margin-left: -10%;
+}
+h2{
+    margin: 0;
+}
+.form{
+    background-color: lightgray;
+    width: 326px;
+    text-align: center;
+    position: relative;
+    left: 310px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 4px 4px 4px darkred;
+    margin-left: -10%;
+    margin-bottom: 5%;
+}
+.usuario, .contraseña{
+    border-radius: 5px;
+}
+.boton{
+    width: 80px;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: darkred;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer; 
+}
+/*############################### CODIGO ANDREW ########################*/
+/*----PAG Cartelera----*/
+#carteleracomun{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 350px;
+    background: white;
+    margin-left: -1%;
+}
+#carteleraTHOR{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 350px;
+    background: white;
+    margin-left: -1%;
+}
+#carteleraIND{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 350px;
+    background: white;
+    margin-left: -1%;
+    margin-bottom: 15px;
+}
+.cuerpocartelera{
+    margin: 0 15% 0 15%;
+}
+.encartelera{
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40pt;
+    background-color: #7c0707;
+    word-spacing: 10px;
+    letter-spacing: 7px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.tituloestrenos{
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30pt;
+    background-color: #7c0707;
+    word-spacing: 10px;
+    letter-spacing: 7px;
+    margin-top: -30px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.titulocasa{
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30pt;
+    background-color: #7c0707;
+    word-spacing: 10px;
+    letter-spacing: 7px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.titulocineindep{
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30pt;
+    background-color: #7c0707;
+    word-spacing: 10px;
+    letter-spacing: 7px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.movie{
+height: 350px;
+}
+/*----PAG Cartelera----*/
+/*---PAG Comidas---*/
+.menucomida{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px 300px;
+    margin: 1%;
+}
+.combo{
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+}
+/*---PAG Comidas---*/
+/*----PAG BOLETAS----*/
+.slider{
+    display: block;
+    
+    
+    
+     
+ 
+}
+.boton:nth-child(1){
+    left: 30px;
+}
+.boton:nth-child(3){
+    left: 60px;
+}
+.boton:nth-child(5){
+    left: 90px;
+}
+.slider label{
+    position: absolute;
+    bottom: 30px;
+    width: 12px;    
+    height: 12px;
+    background: rgba (50,50,50,.5);
+    border-radius: 7px;
+    border: 1px solid #777;
+}
+.slider label:nth-child(2){
+    left:30px;
+}
+.slider label:nth-child(4){
+    left:60px;
+}
+.slider label:nth-child(6){
+    left:90px;
+}
+.boton:checked + label{
+    background: rgba(0,0,0,0.6);
+    border-color: #eee;
+}
+.cont-img img{
+    display: block;
+    float: left;
+}
+.tres-img{
+    display: float;
+    display: grid;
+}
+.padreslider{
+    display: float;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.cine
+{
+    display : grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    height: 500px;
+    border: solid white 1px;
+    background-color: blue;
+}
+.cine2
+{
+    height: 100%;
+    border: solid  white 3px;
+    background-color:black;
+}
+.cont-img{
+    position: relative;
+    top : 0;
+    left: 0;
+    transition: left .3s ease-in;
+    -moz-transition: left .3s ease-in;
+    -o-transition: left .3s ease-in;
+    -webkit-transition: left .3s ease-in;
+    -ms-transition: left .3s ease-in;
+}
+.boton:nth-child(1):checked ~ .cont-img{
+    left:0%;
+}
+
+.boton:nth-child(3):checked ~ .cont-img{
+    left:-100%;
+}
+
+.boton:nth-child(5):checked ~ .cont-img{
+    left:-200%;
+}
+  .numeropeliculas
+  {
+  width: 20%;
+  margin-left: 40%;
+  border: solid white 2px;
+  color : white;
+  font-size: 12pt;
+  background-color: black;
+  margin-bottom: 4px;
+  margin-top: -25px;
+  }
+  img
+  {
+  width: 100%;
+  height : 250px;
+  }
+  .padredepadres {
+    /*margin-left: 500px;
+    margin-right: 500px;*/
+    margin-top : 20px;
+    width: auto;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-column-gap: 1px;
+  }
+  .padredepadres2 {
+    /*margin-left: 500px;
+    margin-right: 500px;*/
+    width: 1200px;
+    margin-left: -25%;
+    background-color: rgba(0,0,0,0.6);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-column-gap: 1px;
+  }
+  #textosilla
+  {
+    color : white;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+  }
+  #totalpeliculas
+  {
+    color : white;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+  }
+  #textopelicula
+  {
+    color : white;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+  }
+  .tarjeta
+  {
+  margin-top : 200px;
+  }
+  #totalcombos
+  {
+    color : white;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+  }
+  .textosilla2
+  {
+    color : white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .sillaelegida2
+  {
+  display : grid;
+  grid-template-rows: 60% 40%;
+  }
+  .sillaespecial {
+  display : grid;
+  grid-template-rows: 70% 30%;
+  }
+  .puestocine {
+    width: 45px;
+    background-color: rgba(0,0,0,0.6);
+    border : 1px solid black;
+  }
+  .botonestilos
+  {
+    width: 50%;
+    height: 30px;
+    background-color: #f5f5f5;
+    color : black;
+    margin-left: 25%;
+    font-size: 10pt;
+  }
+  .botonestilos2
+  {
+    width: 70%;
+    height: 45px;
+    background-color: rgba(44, 8, 248, 0.836);
+    border-color: black;
+    color : white;
+    margin-left: 15%;
+  }
+  .Peliculas{
+    font-size: 40px;
+    letter-spacing: 3px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+/*----PAG BOLETAS----*/
+/*---PAG TIENDA---*/
+.col{
+    float: left;
+}
+.row{
+    overflow: auto;
+}
+.two{
+
+    width: 50%;
+}
+.three{
+    width: 33.3%;
+}
+.four{
+    width: 25%;
+}
+.slider { 
+
+	
+}
+.slider ul {
+	
+	width: 100%;
+	animation: cambio 20s infinite alternate linear;
+}
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+.slider img {
+	width: 100%;
+}
+@keyframes cambio {
+	0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+.imgslider{
+    height: 300px;
+}
+.late{
+	height: 300px;
+	margin: 50% 30%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#category{
+    background-color: rgb(221, 202, 202);
+	height: 1320px;
+	width: 11%;
+	color: black;
+}
+.catkids{
+	width: 20.2%;
+	margin: 1%;
+	background-color: blue;
+	height: 300px;
+	float: left;
+}
+.precio{
+	color: black;
+	border: 2px solid black;
+	background-color: red;
+}
+.hom:hover{
+	transition: 2s;
+	background-color: wheat;
+	background-image: none;
+	font-size: 90%;
+	text-align: center;
+}
+#li-ll>*{
+background-size: cover;
+}
+.informacion{
+	  background-color: rgba(0, 0, 0, 0.253);
+    
+}
+.informacion > p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	text-align: center;
+	color: rgb(0, 30, 255);
+}
+.informacion > h3{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 35px;
+	text-align: center;
+	color: #0012B2;
+}
+.tarjeta{
+    margin-top: 8px;
+}
+/*---PAG TIENDA---*/

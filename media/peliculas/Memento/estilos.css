@@ -1,0 +1,316 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("media/fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+
+}
+.cinemaLogin{
+    background-color: darkred;
+    height: 40px;
+}
+.cinemaheader{
+    height: 100px;   
+}
+
+/* SECCION PELICULAS */
+
+.peli2{
+    color: white;
+}
+
+.lista .content-list li{
+    list-style: none;
+    color: white;
+}
+
+.content-list{
+    margin: 0;
+}
+
+.trailer{
+    margin-bottom: 45px;
+
+}
+
+.img-trail{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px darkred;
+}
+
+.imagen-trailer{
+    margin-bottom: 45px;
+    position: relative;
+    right: 368px;
+}
+
+.horarios{
+    position: relative;
+    bottom: 340px;
+    left: 20px;
+}
+
+.lista{
+    position: relative;
+    left: 297px;
+    bottom: 461px;
+    margin: 0;
+    width: 640px;
+}
+
+/* SECCION PELICULAS */
+
+.logo{
+
+    width: 10%;
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    top: 0px;
+}
+
+.comidas{
+    display: inline-flex;
+    width: 100%;
+}
+
+.menu ul li{
+    background-color: black;
+    width: 80%;
+    display: inline;
+    position: relative;
+    top: -100px;
+    left: 80px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px darkred;
+}
+
+.menu ul li:hover{
+    background-color: yellow;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu ul li a:hover{
+    color: darkred;
+}
+
+
+.cinemaBusqueda{
+    background-color: #3949AB;
+}
+.cinemaSliderCartelera{
+    grid-area: cinemaSliderCartelera;
+    background-color: yellow;
+}
+.cinemaSliderCortos{
+    grid-area: cinemaSliderCortos;
+    background-color: yellow;
+}
+.cinemaBannerComida{
+    grid-area: cinem
+    aBannerComida;
+
+
+}
+.c1{
+    width: 65%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 4px 4px 4px darkred;
+    border-radius: 6px;
+    position: relative;
+    left: 80px;
+}
+
+.c2{
+    width: 46%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 4px 4px 4px darkred;
+    border-radius: 6px;
+    position: relative;
+    right: 80px;
+}
+
+.p1{
+    box-shadow: 6px 6px 6px #3949AB;
+    width: 100%;
+}
+
+.cinemaBannerComida2{
+    grid-area: cinemaBannerComida2;
+}
+.cinemaBannerTienda{
+    box-shadow: 6px 6px 6px #3949AB;
+    margin: 0px 0px 20px 0px;
+}
+
+.hp1{
+    display: block;
+    width: 100%;
+    background-color: darkred;
+    color: whitesmoke;
+}
+
+.cinemaArtistas{
+    grid-area: cinemaArtistas;
+    background-color: yellow;
+}
+.cinemaFooter{
+    grid-area: cinemaFooter;
+    background-color: red;
+}
+.tres{
+    grid-area: tres;
+    background-color: red;
+}
+.cuatro{
+    grid-area: cuatro;
+    background-color: red;
+}
+.cerrarSesion{
+    align-self: flex-end;
+}
+.cinemaContainer{
+    padding: 0 150px 0 150px;
+    font-size: 20px;
+    text-align: center;
+    height: 100%;
+
+}
+.cerrarSesion {
+    position: relative;
+    left: 250px;
+    top: 5px;
+    border-radius: 20%;
+}
+.inicioSesion{
+    position: relative;
+    left: 250px;
+    top: 5px;
+    border-radius: 20%;
+}
+.buscar{
+    position: relative;
+    left: -250px;
+    width: 200px;
+    top: 5px;
+}
+.busqueda{
+    position: relative;
+    left: -250px;
+    top: 5px;
+    border-radius: 20%;
+}
+.ImgBusqueda{
+    position: relative;
+    left: -500px;
+    top: -18px;
+}
+.divmenu{
+    margin-top: 40px;
+    margin-left: 40px;
+    float: left;
+    width: 670px;
+    height: 342px;
+    border: 2px solid rgba(17, 17, 17, 0);
+}
+.divdia{
+    margin-left: 140px;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid red;
+    width: 400px;
+    height: 410px;
+    transition: 2s;
+    color: red;
+    float: left;
+}
+.Con_pri{
+    background-color: rgba(17, 17, 17, 0.808);
+    width: 1300px;
+    height: 2800px;
+    border: 2px solid black;
+    margin: auto;
+}
+div.aco{
+    float: left;
+    transition: 5s;
+    width: 770px;
+    min-height: 100px;
+    background-color: rgba(63, 5, 5, 0.473);
+
+    border-radius: 5px;
+
+}
+div.sub{
+    float: left;
+    transition: 4s;
+    width: 770px;
+    min-height: 40px;
+    background-color: rgba(73, 3, 3, 0.788);
+    float: left;
+}
+
+div.titulo{
+
+    float: left;
+    border-bottom: 2px solid black; 
+    width: 770px;
+    height: 40px;
+    background-color: #690000d2;
+
+
+}
+p.tit{
+    text-align: center;
+    margin: 13px;
+    color: aliceblue;
+}
+
+div.info{
+
+float: left;
+width: 770px;
+    height: 0px;
+    background-color: rgba(163, 46, 46, 0.856);
+    overflow: hidden;
+
+}
+p.info{
+
+    margin: 20px;
+    text-align: center;
+    color:rgb(218, 214, 179);
+}
+div.sub:hover div.info{
+    float: left;
+    width: 770px;
+    min-height: 200px;
+    background-color: rgba(17, 17, 17, 0.808);
+}
+.a{
+    color: white;
+}
+b{
+    color: red;
+}
+
+td{
+    border: 2px solid darkred;
+}
+
+th{
+    color: black;
+    background-color: lightgray;
+    border: 2px solid darkred;
+}

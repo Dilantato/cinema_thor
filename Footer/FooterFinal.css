@@ -1,0 +1,484 @@
+body{
+    margin: 0 15% 0 15%;
+    background-image: url("IMG/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cinemaLogin {
+    margin-top: 8px;
+    width: 1000px;
+    height: 35px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 1fr;
+    background-color: #7F1715;
+    border-radius: 4px;
+    font-size: 12pt;
+    position: fixed;
+    transition: top 5s;
+    justify-content: space-around;
+    z-index: 1;
+}
+    
+
+
+
+.Busqueda{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.login{
+    padding: 5px;
+    margin-top: 2px;
+}
+.botonlogin{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 12pt;
+    color:  white;
+    background-color: #070b7c;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+
+.botonlogin:hover{
+    color: black;
+    background-color: white;
+  }
+
+.find{
+    margin-left: 40%;
+    width: 25px;
+    height: 25px;
+    margin-top: 6px;
+}
+
+
+
+.slider{
+    
+    display: block;
+    position: relative;
+   margin-top: 15px;
+    overflow: hidden;
+    
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 500%;
+	animation: cambio 12s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	21% {margin-left: -100%;}
+	40% {margin-left: -100%;}
+	
+	41% {margin-left: -200%;}
+	59% {margin-left: -200%;}
+	
+	60% {margin-left: -300%;}
+    79% {margin-left: -300%;}
+
+    80% {margin-left: -400%;}
+    100% {margin-left: -400%;}
+
+    
+}
+#li-ll>*{
+    background-size: cover;
+    }
+
+    .lista{
+        background-color: black;
+        border-radius: 4px;
+        margin-top: 15px;
+        width: 1000px;
+        margin-bottom: -39px;
+    }
+    
+    #btn-menu {
+        display: none;
+    }
+    
+    label {
+        display: none;
+        height: 30px;
+    }
+    
+    .lista label:hover{
+        cursor: pointer;
+        background: rgba(0,0,0,0.3);
+     
+    }
+    
+    .menu ul {
+    
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+       
+        
+    }
+    
+    .menu li{
+        flex-grow:1;
+        box-shadow: 4px 0px 20px darkred;
+        width: 100%;
+        background-color: black;
+        border-radius: 4px;
+         padding: 5px;
+        
+    }
+    
+    
+    .menu li:hover{
+        background-color:#434343;
+    }
+    
+    .menu li a {
+        display: block;
+        padding: 5px 0px;
+        color: rgb(8, 0, 0);
+        text-decoration: none;
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-size: 14pt;
+       
+    }
+    
+    @media (max-width: 760px ){
+    
+        .lista label {
+            display: block;
+           
+        }
+        .menu {
+            position: absolute;
+            background: black;
+            width: 30%;
+            margin-left: -70%;
+            transition: all 0.5s;
+            
+            font-size: 12pt;
+            z-index: 1;
+        }
+        .menu ul {
+            flex-direction: column;
+    
+        }
+    
+        .menu li {
+            box-shadow: 2px 2px 4px darkred;
+        }
+    
+        #btn-menu:checked ~ .menu {
+            margin: 0;
+        }
+    }
+
+
+/*//////////////////////////////////*/
+.Titulo_Del_Footer_Final_Principal{
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    background-color: #7c0707;
+    word-spacing: 10px;
+    letter-spacing: 7px;
+    border-radius: 5px;
+    width: 1000px;
+     margin-top: 30px;
+     margin-bottom: 5px;
+}
+h2{
+    color: white;
+}
+.Titulo_Sub_Principal_De_Terminos_Y_Condiciones{
+    color: white;
+}
+.Parrafo_De_Peticiones_De_Comtactenos_Del_Footer_Final{
+    background-color:rgba(0, 0, 0, 0.836);
+    color: white;
+}
+.Footer_Principal__De_Terminos_Y_Condiciones{
+    border: 2px solid darkred;
+    width: 1000px;
+    height: 680px;
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.836);
+    color: white;
+
+}
+.Boton_Terminos_Y_Condiciones{
+    border: 2px solid darkred;
+    display: inline;
+}
+.Div_Principal_Sobre_Nosotros {
+    border: 2px solid darkred;
+    width: 1000px;
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.836);
+}
+
+.Div_Principal_Preguntas_Frecuentes_Del_Footer_Final{
+    border: 2px solid darkred;
+    width: 1000px;
+   
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.836);
+}
+.Div_Principal_De_Contactos_Del_Footer_Final{
+    border: 2px solid darkred;
+    width: 1000px;
+    height: 1250px;
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.836);
+    margin-top: 50px;
+}
+.Div_Principal_Sobre_Nosotros, .Div_Principal_De_Contactos_Del_Footer_Final, .Div_Principal_Preguntas_Frecuentes_Del_Footer_Final{
+    margin-top: 50px;
+}
+.Tit_Pre, .Tit_Nos, #Tit_Con, .Tit_Pre_Fre{
+    border-bottom: 2px dotted rgba(139, 0, 0, 0.103);
+}
+.Div_Principal_Sobre_Nosotros{
+    height: 700px;
+
+}
+.Div_Principal_Preguntas_Frecuentes_Del_Footer_Final{
+    height: 400px;
+}
+
+.Titulo_Principal_De_Terminos_Y_Condiciones{
+    position: relative;
+    left: 20px;
+    width: 978.59;
+    height: 57;
+    margin: 20px 0;
+}
+.Div_Principal_2_Del_Footer_Final{
+    background-color:rgba(0, 0, 0, 0.836);
+}
+.Titulo_Sub_Principal_De_Terminos_Y_Condiciones, .Peticion_Contactenos{
+    position: relative;
+    background-color:rgba(0, 0, 0, 0.836);
+    margin: auto;
+    margin: 10px 0px 0px 0px;
+    width: 97%;
+    overflow: auto;
+    padding: 12px;
+    margin-top: 5px;
+    margin: 0;
+    display: block;
+    border-radius: 6px 6px 0 0;
+}
+.Div_Peticion_Principal_Del_Footer_Final{
+    width: 962px;
+    margin-top: 5px;
+    margin: 0;
+    padding: 0;
+}
+.Parrafo_1_Del_Footer_Final{
+    text-align: center;
+    font-size: 17px;
+    color: #ff6600;
+    padding: 12px;
+    margin-top: 5px;
+}
+.Div_Principal_3_Del_Footer_Final{
+    border: 2px solid darkred;
+    width: 880px;
+    height: 406px;
+    margin: auto;
+    border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    overflow: auto;
+}
+p , .Las_Listas_Del_Footer_Final{
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: white;
+    margin: 15px;
+
+}
+.Parrafo_Para_Los_Titulos_Azules_Asi_Bien_Vacanos_Ustedes_Saben{
+    color: blue;
+}
+
+
+/*.Div_Principal_Sobre_Nosotros{
+    /*width: 982px;
+    height: 1742.56px;
+    border: 2px solid black;
+    margin: auto;
+    margin: 20px 0px 20px 0px;
+}*/
+.Peticion_Contactenos{
+    font-size: 24px;
+    margin-bottom: 20px;
+    width: 922px;
+    height: 16x;
+    position: relative;
+    left: 20px;
+}
+.Parrafo_De_Peticiones_De_Comtactenos_Del_Footer_Final{
+    width: 922px;
+    height: 16px;
+    font-size: 14px;
+    margin-top: 15px;
+    position: relative;
+    left: 20px;
+    background-color:rgba(0, 0, 0, 0.836);
+}
+
+.En_Cumplimiento_Contactenos{
+    position: relative;
+    left: 50px;
+    padding: 40px;
+    color: white;
+}
+.Radio_Div_Footer{
+    position: relative;
+    left: 600px;
+    top: -520px;
+    width: 350px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+.Radio_Contactenos_Del_Footer{
+    position: relative;
+    left: -220px;
+    top: 22px;
+    background-color: #f9f9f9;
+}
+.Formulario_Contactenos{
+    position: relative;
+    left: 530px;
+    width: 400px;
+    top: -530px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.Formulario_De_Contactenos_Del_Footer{
+    height: 100px;
+    background-color: #f9f9f9;
+}
+.En_Cumpliento_Contactenos_Footer_Final{
+    color: #666666;
+    position: relative;
+    left: -35px;
+    top: -3px;
+}
+.Enviar_Contactenos_Del_Footer_Final{
+    position: relative;
+    left: 525px;
+    width: 400px;
+    top: -480px;
+}
+.Peticion_Y_Mas_Del_Footer_Final{
+    height: 379px;
+    width: 906px;
+    margin: auto;
+    border-radius: 6px 6px 0 0;
+    margin-top: 20px; 
+    border: 2px solid darkred;
+    position: relative;
+    top: -450px;
+}
+.P_P{
+    margin-bottom: 18px;
+    color: white;
+    font-size: 18px;
+}
+.Cuadro_1_Del_Footer_De_Nosotros{
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.Cuadro_2_Del_Footer_De_Nosotros{
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+.Titulo_De_La_Mision_De_Nosotros{
+    color: #003366;
+    position: relative;
+    top: 80px;
+    left: -210px;
+    display: inline;
+    font-size: 20px;
+}
+.Titulo_De_La_Vision_De_Nosotros{
+    color: #003366;
+    position: relative;
+    top: 80px;
+    left: 30px;
+    display: inline;
+    font-size: 20px;
+}
+.Mision_Parrafo_Nosotros_Footer{
+    position: relative;
+    width: 300px;
+    text-align: center;
+    top: 90px;
+    left: 150px;
+}
+.Vision_Parrafo_Nosotros_Footer{
+    position: relative;
+    width: 300px;
+    left: 500px;
+    text-align: center;
+    top: 20px;
+}
+.Preguntas_1_De_Preguntas_Frecuentes_Del_Footer_Final{
+    border: 2px solid darkred;
+    width: 40%;
+    height: 260px;
+    margin:  20px;
+    position: relative;
+    left: 50px;
+}
+.Preguntas_2_De_Preguntas_Frecuentes_Del_Footer_Final{
+    border: 2px solid darkred;
+    width: 40%;
+    position: relative;
+    left: 500px;
+    height: 260px;
+    margin:  20px;
+    top: -280px;
+    overflow: auto;
+}
+.Pre_1_Del_Otro_Lado{
+    color: white;
+    background-color: rgba(139, 0, 0, 0.616);
+    border-radius: 6px 6px 6px 6px;
+}
+.Pre_1_Del_Otro_Lado:hover{
+    background-color: rgba(25, 0, 139, 0.616);
+    transition: 1s;
+}

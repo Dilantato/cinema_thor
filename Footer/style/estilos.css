@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+    #Contenedor_De_Formularios_Del_Footer_Final {
+    background: rgba(0,0,0,.7);
+    max-width: 500px;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 0px;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    height: 550px;
+    /*padding: 40px;*/
+    }
+
+
+    .Motivo{
+        height: 200px;
+    }
+
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="text"],
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="label"],
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="date"],
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="time"],
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="number"],
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="file"],
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="radio"], 
+    #Contenedor_De_Formularios_Del_Footer_Final textarea,
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="email"] {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 10px 0;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #092048;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight:normal;
+    transition: all .5s ease;
+    }
+
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="text"]:focus,
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="password"]:focus,
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="date"]:focus,
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="time"]:focus,
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="number"]:focus,
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="file"]:focus,
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="radio"]:focus,
+    #Contenedor_De_Formularios_Del_Footer_Final textarea:focus,
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="email"]:focus {
+    border-bottom: 4px solid #f70002;
+    }
+
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="submit"] {
+    background: #092048;
+    color: #FFF;
+    width: 400px;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+    }
+
+    #Contenedor_De_Formularios_Del_Footer_Final input[type="submit"]:hover {
+    background: #f70002;
+
+    }

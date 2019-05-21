@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+  <title>Eligiendo mi boleta</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,user-scalable=no,
+    initial-scale=1,maximun-scale=1,minimun-scale=1" />
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="icon" href="media/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <div class="cinemaLogin" id="cinemaLogin">
+
+    <div id="dia" class="dia">
+    </div>
+
+
+    <div class="Busqueda">
+
+      <input type="search" class="buscar" placeholder="Busqueda Por Palabra Clave">
+
+
+      <a href=""><img src="media/find.png" title="Buscar" class="find"></a>
+    </div>
+
+    <div class="login">
+      <a href="login.html" class="botonlogin">Login</a>
+
+    </div>
+
+  </div>
+  <br>
+
+  <div id="slider" class="slider">
+    <ul id="li-ll">
+      <li>
+        <a href=""><img class="imgslider" src="media/logo.png"></a>
+      </li>
+      <li>
+        <a href=""><img class="imgslider" src="media/pub3.png"></a>
+      </li>
+      <li>
+        <a href=""><img class="imgslider" src="media/pub4.png"></a>
+      </li>
+      <li>
+        <a href=""><img class="imgslider" src="media/pub5.png"></a>
+      </li>
+      <li>
+        <a href=""><img class="imgslider" src="media/pub6.png"></a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="lista">
+
+    <input type="checkbox" id="btn-menu">
+    <label for="btn-menu"><img src="media/btndes.png" alt=""></label>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="cartelera.html">CARTELERA</a></li>
+        <li><a href="nominadas.html">DE LA CASA</a></li>
+        <li><a href="boleteria.html">TAQUILLA</a></li>
+        <li><a href="tienda/index-ll.html">CINEMATHOR</a></li>
+      </ul>
+
+    </nav>
+  </div>
+
+
+
+  <div id="sliderpub" class="sliderpub">
+    <ul id="li-lf" class="ul2">
+
+      <li class="li2">
+        <img class="imgslider pub2" src="media/pub/pub1.png">
+      </li>
+      <li class="li2">
+        <img class="imgslider pub2" src="media/pub/pub2.png">
+      </li>
+      <li class="li2">
+        <img class="imgslider pub2" src="media/pub/pub3.png">
+      </li>
+      <li class="li2">
+        <img class="imgslider pub2" src="media/pub/pub4.png">
+      </li>
+    </ul>
+
+  </div>
+  <div id="sliderpub2" class="sliderpub2">
+    <ul id="li-lf" class="ul3">
+
+      <li class="li3">
+        <img class="imgslider pub2" src="media/pub/pub5.png">
+      </li>
+      <li class="li3">
+        <img class="imgslider pub2" src="media/pub/pub6.png">
+      </li>
+      <li class="li3">
+        <img class="imgslider pub2" src="media/pub/pub7.png">
+      </li>
+      <li class="li3">
+        <img class="imgslider pub2" src="media/pub/pub8.png">
+      </li>
+    </ul>
+
+  </div>
+
+
+
+  <div id="compraboletas">
+
+    <div id="tarjetasysumado">
+
+      <select name="tarjeta" class="tarjeta" id="tarjeta">
+        <option value="0"> ELIJA EL TIPO DE TARJETA</option>
+        <option value="bronce" id="bronce"> JARL KOTTI (BRONCE)</option>
+        <option value="platino">FADIR KOTTI (PLATINO) </option>
+        <option value="vip"> EDDA KOTTI (VIP) </option>
+      </select>
+
+      <div class="ventatotal">
+
+        <p id="textopeliculas"> TOTAL : 0 </p>
+      </div>
+
+      <div>
+
+        <button class="bt2" id="comprarpelicula" onclick="prompt('Ingrese correo para facturar: ')" > COMPRAR </button>
+      </div>
+    </div>
+
+
+    <div id="p1">
+      <img class="flyercompra" src="media/corre-lola-corre-run-lola-run-1998.jpg">
+      <p id="pelicula1" style="margin-top: -3px" class="nombreventa">CORRE LOLA CORRE<br>
+        $ 12.000<br>
+        <div>
+          <input id="contadorpelicula1" type="number">
+      </p>
+    </div>
+    <button class="bt1" id="botonpelicula1">ELEGIR</button>
+  </div>
+  <div id="p2">
+    <img class="flyercompra" src="media/Cube-1997.jpg">
+    <p id="pelicula2" style="margin-top: -3px" class="nombreventa">THE CUBE<br>
+      $ 15.000<br>
+
+      <div>
+        <input id="contadorpelicula2" type="number">
+    </p>
+  </div>
+
+
+
+  <button class="bt1" id="botonpelicula2">ELEGIR</button>
+  </div>
+  <div id="p3">
+    <img class="flyercompra" src="media/lost-in-translation-2003.jpg">
+    <p id="pelicula3" style="margin-top: -3px" class="nombreventa">LOST IN TRANSLATION<br>
+      $ 25.000<br>
+
+      <div>
+        <input id="contadorpelicula3" type="number">
+    </p>
+  </div>
+  <button class="bt1" id="botonpelicula3">ELEGIR</button>
+
+
+  </div>
+  <div id="p4">
+    <img src="media/memento-2000.jpg" class="flyercompra">
+    <p id="pelicula4" style="margin-top: -3px" class="nombreventa">MEMENTO<br>
+      $ 45.000<br>
+
+      <div>
+        <input id="contadorpelicula4" type="number">
+    </p>
+  </div>
+
+
+
+  <button class="bt1" id="botonpelicula4">ELEGIR</button>
+  </div>
+  </div>
+
+  <div id="compracomidas">
+
+    <div id="tarjetasysumado">
+
+      <select name="tarjeta" class="tarjeta" id="tarjeta">
+        <option value="0"> ELIJA EL TIPO DE TARJETA</option>
+        <option value="bronce" id="bronce"> JARL KOTTI (BRONCE)</option>
+        <option value="platino">FADIR KOTTI (PLATINO) </option>
+        <option value="vip"> EDDA KOTTI (VIP) </option>
+      </select>
+
+      <div class="ventatotal">
+
+        <p id="textopeliculas2"> TOTAL : 0 </p>
+      </div>
+
+      <div>
+        <button class="bt2" id="comprarcomida" onclick="prompt('Ingrese correo para facturar: ')" > COMPRAR </button>
+      </div>
+    </div>
+
+
+    <div id="p5">
+      <img class="flyercompra2" src="media/combo1.png">
+      <p id="pelicula1" style="margin-top: -3px" class="nombreventa">BEBIDAS BJORR
+        <div>
+          <input id="contadorpelicula1" type="number" width="20px">
+      </p>
+    </div>
+    <button class="bt1" id="botoncombo1">ELEGIR</button>
+  </div>
+  <div id="p6">
+    <img class="flyercompra2" src="media/combo2.png">
+    <p id="pelicula2" style="margin-top: -3px" class="nombreventa">COMBO GEIT
+
+      <div>
+        <input id="contadorpelicula2" type="number">
+    </p>
+  </div>
+
+
+
+  <button class="bt1" id="botoncombo2">ELEGIR</button>
+  </div>
+  <div id="p7">
+    <img class="flyercompra2" src="media/combo3.png">
+    <p id="pelicula3" style="margin-top: -3px" class="nombreventa">COMBO NATTVEROR
+
+      <div>
+        <input id="contadorpelicula3" type="number">
+    </p>
+  </div>
+  <button class="bt1" id="botoncombo3">ELEGIR</button>
+
+
+  </div>
+ 
+  </div>
+  </div>
+
+
+
+  <div class="cinemaFooter">
+    <div class="Footer1">
+      <div class="Nosotros links"><a href="Footer/Footer/Footer.html">Nosotros</a></div>
+      <div class="PreguntasFrecuentes links"><a href="contactenos/Cinema-thor-lb.html">Preguntas frecuentes</a></div>
+      <div class="TerminosYCondiciones links"><a href="Footer/Footer/Footer.html">Terminos y condiciones</a></div>
+      <div class="Contactanos links"><a href="contactenos/Cinema-thor-lb.html">Contactanos</a></div>
+    </div>
+    <!--footer1-->
+    <div class="Footer2">
+
+      <div class="red0 red">
+        <a href="#"><img class="Face" src="media/footer/fb.png"></a>
+        <p class="face">Facebook</p>
+      </div>
+      <!--red0-->
+      <div class="red1 red">
+        <a href="#"><img class="Tuit" src="media/footer/twtr.png"></a>
+        <p class="tuit">Twitter</p>
+      </div>
+      <!--red1-->
+      <div class="red2 red">
+        <a href="#"><img class="Tube" src="media/footer/tube.png"></a>
+        <p class="tube">Youtube</p>
+      </div>
+      <!--red2-->
+      <div class="red3 red">
+        <a href="#"><img class="Insta" src="media/footer/insta.png"></a>
+        <p class="insta">Instagram</p>
+      </div>
+      <!--red3-->
+
+    </div>
+    <!--footer2-->
+    <div class="Footer3">
+      <div class="©">
+        © Copyright 2019 || Salon Thor PM - Casa Bictia
+      </div>
+      <!--class ©-->
+    </div>
+    <!--footer3-->
+
+  </div>
+  <!--cinemaFooter-->
+
+
+
+
+
+  <script src="js/taquilla.js"></script>
+  
+  <script src="js/comidas.js"></script>
+</body>
+
+</html>

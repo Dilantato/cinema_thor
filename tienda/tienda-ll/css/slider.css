@@ -1,0 +1,269 @@
+
+.slider{
+     margin-left: -95px;
+    width: 943px;
+    margin-bottom: -40px;
+    
+}
+
+
+.toto > div{
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 100%;
+    margin: 0px 1% 0px;
+    width: 100%;
+
+}
+            /*---------------------ROPA HOMBRE---------------------------------*/
+.ropH1{
+    background-image: url(../Multimedia/ropH1.jpg);
+}
+
+.ropH2{
+    background-image: url(../Multimedia/ropH2.jpg);
+}
+
+.ropH3{
+    background-image: url(../Multimedia/ropH3.jpg);
+}
+
+            /*---------------------ACCESORIOS HOMBRE---------------------------------*/
+.accH1{
+    background-image: url(../Multimedia/accH1.jpg);
+}
+
+.accH2{
+    background-image: url(../Multimedia/accH2.jpg);
+}
+
+.accH3{
+    background-image: url(../Multimedia/accH3.jpg);
+}
+
+            /*---------------------PROMOCION HOMBRE---------------------------------*/
+.promH1{
+    background-image: url(../Multimedia/promH1.jpg);
+}
+
+.promH2{
+    background-image: url(../Multimedia/promH2.jpg);
+}
+
+.promH3{
+    background-image: url(../Multimedia/promH3.jpg);
+}
+
+
+            /*---------------------ROPA MUJER---------------------------------*/
+.ropM1{
+    background-image: url(../Multimedia/ropM1.jpg);    
+}
+
+.ropM2{
+    background-image: url(../Multimedia/ropM2.jpg);
+}
+
+.ropM3{
+    background-image: url(../Multimedia/ropM3.jpg);
+}
+
+            /*---------------------ACCESORIOS MUJER---------------------------------*/
+.accM1{
+    background-image: url(../Multimedia/accM1.jpg);
+}
+
+.accM2{
+    background-image: url(../Multimedia/accM2.jpg);
+}
+
+.accM3{
+    background-image: url(../Multimedia/accM3.jpg);
+}
+
+            /*---------------------PROMOCION MUJER---------------------------------*/
+.promM1{
+    background-image: url(../Multimedia/promM1.jpg);
+}
+
+.promM2{
+    background-image: url(../Multimedia/promM2.jpg);
+}
+
+.promM3{
+    background-image: url(../Multimedia/promM3.jpg);
+}
+            /*---------------------ROPA NIÑO---------------------------------*/
+.ropN1{
+background-image: url(../Multimedia/ropN1.jpg);
+}
+
+.ropN2{
+background-image: url(../Multimedia/ropN2.jpg);
+}
+
+.ropN3{
+background-image: url(../Multimedia/ropN3.jpg);
+}
+        /*---------------------ACCESORIOS NIÑO---------------------------------*/
+.accN1{
+background-image: url(../Multimedia/accN1.jpg);
+}
+
+.accN2{
+background-image: url(../Multimedia/accN2.jpg);
+}
+
+.accN3{
+background-image: url(../Multimedia/accN3.jpg);
+}
+        /*---------------------PROMOCION NIÑO---------------------------------*/
+.promN1{
+background-image: url(../Multimedia/promN1.jpg);
+}
+
+.promN2{
+background-image: url(../Multimedia/promN2.jpg);
+background-size: cover;
+}
+
+.promN3{
+background-image: url(../Multimedia/promN3.jpg);
+}
+        /*----------------------------------------------------------------------*/            
+
+.ropa1:hover{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textCom{
+    height: 100%;
+    text-align: center;
+}
+.textCom:hover{
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 100%;
+    position: relative;
+    /*top: -5.5%;*/
+    text-align: center;
+    transition: 1s;
+    color: rgb(228, 169, 43);
+    /*margin-top: 10px;*/
+    font-size: 25px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.sboton{
+    
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 124px;
+    font-size: 14pt;
+    background-color: #070b7c;
+}
+.sboton:hover{
+    background-color: rgba(0, 0, 0, 0.74);
+    transition: 2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: black 10 10 10 10;
+    
+}
+
+.acceso{
+    width: 29.3%;
+    height: 280px;
+    margin: 1%  2%;
+    float: left;
+}
+.boton{
+    position: absolute;
+    display: block;
+    bottom: 30px;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+    cursor: pointer;
+    opacity: 0;
+}
+.boton1:nth-child(1){
+    left: 30px;
+}
+
+.boton2:nth-child(3){
+    left: 60px;
+}
+
+.boton3:nth-child(5){
+    left: 90px;
+}
+
+.slider label{
+    position: absolute;
+    bottom: 30px;
+    width: 12px;    
+    height: 12px;
+    background: rgba (50,50,50,.5);
+   /* border-radius: 7px;
+     border: 1px solid #777; */
+    z-index: 100;
+  
+}
+
+.boton:checked + label{
+    background: rgba(0,0,0,0.6);
+}
+
+.cont-img img{
+    display: block;
+    float: left;
+}
+
+.tres-img{
+    display: float;
+    display: grid;
+    grid-template-columns: 300%;
+}
+
+.padreslider{
+    display: float;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.cine
+{
+    height: 294px;
+    border: solid black 3px;
+    background-color: rgba(255, 136, 0, 0.329);
+}
+
+.tres-img img{
+    width: 33%;
+}
+
+.cont-img{
+    position: relative;
+    top : 0;
+    left: 0;
+    transition: left .3s ease-in;
+    -moz-transition: left .3s ease-in;
+    -o-transition: left .3s ease-in;
+    -webkit-transition: left .3s ease-in;
+    -ms-transition: left .3s ease-in;
+}
+
+.boton1:active ~ .cont-img{
+    left:0%;
+}
+.boton2:checked ~ .cont-img{
+    left:-200%;
+}
+
+.boton3:checked ~ .cont-img{
+    left:-100%;
+}
+.textComp2 {
+    color: rgba(0, 0, 0, 0);
+}

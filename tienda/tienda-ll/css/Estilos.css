@@ -1,0 +1,147 @@
+.col{
+    float: left;
+}
+.row{
+    overflow: auto;
+}
+.two{
+
+    width: 50%;
+}
+.three{
+    width: 33.3%;
+}
+.four{
+  
+}
+#general{
+	height: 800px;
+	margin: 0 10%;
+}
+.slider { 
+	width: 100%;
+    height: 300px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.imgslider{
+    height: 300px;
+}
+.late{
+	
+	height: 300px;
+	margin: 50% 30%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#category{
+    background-color: rgb(221, 202, 202);
+	height: 1320px;
+	width: 11%;
+	color: black;
+	
+
+}
+.contenido{
+	background-color: rgb(221, 202, 202);
+	width: 100%;
+	height: 330px;
+}
+.catkids{
+	width: 20.2%;
+	margin: 1%;
+	background-color: blue;
+	height: 300px;
+	float: left;
+}
+/*.hom{
+	background-image: url("../accesorios/acc-vikingo-hombre3.jpg");
+	background-size: cover;
+	font-size: 0%;
+}*/
+.precio{
+	color: black;
+	border: 2px solid black;
+	background-color: red;
+}
+.hom:hover{
+	transition: 2s;
+	background-color: wheat;
+	background-image: none;
+	font-size: 90%;
+	text-align: center;
+}
+.imgHom{
+	width: 30%;
+	margin: 0% 4%;
+}
+#li-ll>*{
+background-size: cover;
+}
+/*
+.textCont{
+	width: 100%;
+	
+}*/
+
+.informacion{
+	width: 100%;
+	height: 700px;
+	/*background-image:  url(../multimedia/tienda-ll.jpg);*/
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	padding: 100px 0 100px 0; 
+	opacity: 0.9;
+	background-color: rgba(0, 0, 0, 0.253);
+}
+
+.informacion > p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	text-align: center;
+	color: rgb(0, 30, 255);
+}
+
+.informacion > h3{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 35px;
+	text-align: center;
+	color: #0012B2;
+}
+#body-lb{
+	background-color: rgba(0, 114, 190, 0.281);
+}
+.content2{
+	width: 950px;
+}
+

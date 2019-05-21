@@ -1,0 +1,143 @@
+.col{
+    float: left;
+}
+.row{
+    overflow: auto;
+}
+.two{
+
+    width: 50%;
+}
+.three{
+    width: 33.3%;
+}
+.four{
+    width: 25%;
+}
+/*#general{
+	height: 800px;
+	margin: 0 10%;
+}*/
+.slider { 
+	width: 100%;
+    height: 300px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 20s infinite alternate linear;
+}
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+	height: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.imgslider{
+    height: 300px;
+}
+h1{
+	color:rgb(247, 247, 255);
+
+}
+.late{
+	
+	height: 300px;
+	margin: 50% 30%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#category{
+    background-color: rgb(221, 202, 202);
+	height: 1320px;
+	width: 11%;
+	color: black;
+	
+
+}
+.contenido{
+	background-color: rgb(221, 202, 202);
+	width: 100%;
+	height: 330px;
+}
+.catkids{
+	width: 20.2%;
+	margin: 1%;
+	background-color: blue;
+	height: 300px;
+	float: left;
+}
+/*.hom{
+	background-image: url("../accesorios/acc-vikingo-hombre3.jpg");
+	background-size: cover;
+	font-size: 0%;
+}*/
+.precio{
+	color: black;
+	border: 2px solid black;
+	background-color: red;
+}
+.hom:hover{
+	transition: 2s;
+	background-color: wheat;
+	background-image: none;
+	font-size: 90%;
+	text-align: center;
+}
+.imgHom{
+	width: 30%;
+	margin: 0% 4%;
+}
+#li-ll>*{
+background-size: cover;
+}
+
+.informacion{
+	width: 100%;
+	height: 300px;
+	background-color: red;
+}
+.botones{
+	overflow:hidden;
+	padding: 10px 30px;
+	margin-top: 30px;
+	
+    }
+
+
+
+
+	
+
+.botones{
+	width:100%;
+		
+}
+.botones1{
+	width:10%;
+	float:left;
+	margin:0px 10%;
+	text-align:center;
+
+}
